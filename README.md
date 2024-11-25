@@ -6,7 +6,7 @@ Despite having no experience in Swift, iOS app development, and limited experien
 
 Our team built a small dataset of the l'Orangerie museum in Paris (images and extensive text descriptions), and the app can answer questions about the museum, its history, and the paintings.
 
-To run this model, you need a compiled `.pte` file of the model and the `.model` tokenizer, which are not included in this repository. For more information, refer to the ExecuTorch repository. You then need to link them to the app.
+To run this model, you need a compiled `.pte` file of the model and the `.model` tokenizer, which are not included in this repository. For more information, refer to the [ExecuTorch repository](https://github.com/pytorch/executorch). You then need to link them to the app.
 
 Special thanks to the PyTorch team for the ExecuTorch project and their support during the hackathon, especially:
 
