@@ -6,6 +6,8 @@ This repository showcases the concept we developed during the Paris "Consumer AI
 
 Our team aimed to create a museum guide app capable of answering questions about a museum and its artwork — entirely on-device. To complement this functionality, we also implemented a YOLOv11 model to detect and recognize paintings within the museum. Although this model wasn’t fully integrated into the app by the submission deadline, it remains a key part of our concept.
 
+https://github.com/user-attachments/assets/5185e502-5461-43fb-af43-f03a0a59b697
+
 ### Key Contributions
 
 My primary contribution was implementing a **Large Language Model (LLM)** fully on-device, without requiring internet access. This implementation utilized the Llama 3 1B model and involved the following innovations:
