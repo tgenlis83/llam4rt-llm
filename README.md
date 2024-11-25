@@ -4,6 +4,8 @@ This project is a concept from the "Consumer AI Edge Hackathon". My contribution
 
 Despite having no experience in Swift, iOS app development, and limited experience with LLMs, I managed to achieve this small project, and our team at the hackathon was the only one to achieve a fully on device LLM.
 
+Our team built a small dataset of the l'Orangerie museum in Paris (images and extensive text descriptions), and the app can answer questions about the museum, its history, and the paintings.
+
 To run this model, you need a compiled `.pte` file of the model and the `.model` tokenizer, which are not included in this repository. For more information, refer to the ExecuTorch repository. You then need to link them to the app.
 
 Special thanks to the PyTorch team for the ExecuTorch project and their support during the hackathon, especially:
