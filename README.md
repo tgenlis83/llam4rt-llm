@@ -1,2 +1,13 @@
-# llam4rt-llm
-Fully on device LLM (Llama 3 1B) running on iPhone, specialized in l'Orangerie gallery in Paris.
+# LLAM4RT
+
+This project is a concept from the "Consumer AI Edge Hackathon". My contribution involved implementing a Large Language Model (LLM) **on-device**, without internet access, based on the Llama 3 1B model. In 30 hours, I extended the ExecuTorch demo iOS app to support Retrieval-Augmented Generation (RAG), memory, and markdown. 
+
+Despite having no experience in Swift, iOS app development, and limited experience with LLMs, I managed to achieve this small project, and our team at the hackathon was the only one to achieve a fully on device LLM.
+
+To run this model, you need a compiled `.pte` file of the model and the `.model` tokenizer, which are not included in this repository. For more information, refer to the ExecuTorch repository. You then need to link them to the app.
+
+Special thanks to the PyTorch team for the ExecuTorch project and their support during the hackathon, especially:
+
+- Mergen Nachin from Meta [@mergennachin](https://github.com/mergennachin)
+- Xuan Son Nguyen from Hugging Face [@ngxson](https://github.com/ngxson)
+- Guang Yang from Meta
